@@ -2,7 +2,8 @@
   "name": "itholics/oxid-clear-cache",
   "description": "Deletes the contents of the /tmp folder",
   "type": "oxideshop-module",
-  "version": "6.3.3",
+  "version": "6.3.4",
+  "license": "GPL-3.0-or-later",
   "keywords": [
     "oxid",
     "modules",
