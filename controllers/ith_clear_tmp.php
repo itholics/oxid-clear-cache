@@ -8,7 +8,7 @@ use OxidEsales\Eshop\Core\Registry;
 
 /**
  * Class ith_clear_tmp<br>
- * <br>
+ *
  * This class is used by ajax request<br>
  *  - First for in-page requests
  *  - Second for admin header button as ajax request
