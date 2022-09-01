@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<OX>
+    <OXMENU id="ITH_MODULES">
+        <MAINMENU id="ITH_CLEAR_TMP" cl="ith_clear_tmp_admin" rights="malladmin">
+            <SUBMENU id="MAIN" cl="ith_clear_tmp_admin" rights="malladmin">
+
+            </SUBMENU>
+        </MAINMENU>
+    </OXMENU>
+</OX>
