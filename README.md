@@ -1,14 +1,19 @@
-## ITholics - Module: Delete temporary files
-**Composer:** *ith_modules/clear_template*
+# ITholics - Module: Delete temporary files
 
-**ModuleID:** *ith_clear_tmp*
+**ModuleID:** *ith_clear_tmp* 
 
-### Requirements
+## Requirements
 - OXID EE/PE/CE ^6.2
 - PHP ^7.1
 
+## Installation
 
-### Features
+    composer require itholics/oxid-clear-cache    
+
+And also look at the `bin/*.sh` files.
+
+
+###Features
 - Item in the admin menu to delete the cache (temporary directory)
     - All files beginning with 'o' and 'c' are deleted,
         and the complete contents of the 'Smarty' directory.
@@ -23,30 +28,7 @@
     - Furthermore, an IP whitelist can be used,
       to bind the triggering of the deletion to one or more IPs.
 
-
-### Installation
-All actions are from shops' root.
-1) Copy file to
-        
-        source/modules/ith_modules/ith_clear_tmp
     
-2) Add the module to shop repository
-
-        composer config repositories.ith_modules.clear-template path source/modules/ith_modules/ith_clear_tmp
-        
-3) Install the module
-
-        composer require ith_modules/clear-template --no-scripts --update-no-dev
-        
-4) Install module's configuration
-
-        vendor/bin/oe-console oe:module:install-configuration path source/modules/ith_modules/ith_clear_tmp
-        
-5) Activate the module
-
-        vendor/bin/oe-console oe:module:activate ith_clear_tmp
-
-Or use the `*.sh` files provided in the `bin/` folder.
 
 ### Settings & Use
 - Module settings:

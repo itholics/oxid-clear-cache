@@ -22,7 +22,7 @@ $aModule = [
         'en' => 'Deletes the contents of the /tmp folder.'
     ],
     'thumbnail'   => 'out/logo.png',
-    'version'     => '6.3.3',
+    'version'     => '6.3.5',
     'author'      => 'ITholics GmbH',
     'url'         => 'https://itholics.de',
     'email'       => 'info@itholics.de',
